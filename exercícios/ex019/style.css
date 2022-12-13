@@ -1,0 +1,33 @@
+@charset
+
+
+body{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(8, 19, 19);
+}
+#principal{
+    text-align: center;
+   color: blueviolet;
+  
+}
+h2{
+    color: rgb(39, 176, 131);
+}
+body{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.basico{
+    text-align: right;
+    background-color: #8710EB;
+    color: black;
+}
+.estilo{
+    font-style: inherit;
+    color: #2011F5;
+    text-align: center;
+}
