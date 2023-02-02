@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coulgroup em Tabelas</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            margin: auto;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+        caption{
+            padding: 8px;
+            
+        }
+        .name{
+            background-color: cornflowerblue;
+        }
+        .prof{
+            background-color: rgb(42, 187, 187);
+            
+        }
+        .age{
+            background-color: violet;
+        }
+        div#container{
+           
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="name">
+                <col class="age">
+                <col class="prof" span="2">
+        
+            </colgroup>
+            <caption>Exercício</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Cidade</th>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>26</td>
+                <td>Modelo</td>
+                <td>Salvador</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>34</td>
+                <td>Delegado</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>27</td>
+                <td>Professor</td>
+                <td>Ilhéus</td>
+            </tr>
+            <tr>
+                <td>Alinne</td>
+                <td>30</td>
+                <td>Cantora</td>
+                <td>Itabuna</td>
+            </tr>
+            <tr>
+                <td>Marília</td>
+                <td>34</td>
+                <td>Empresária</td>
+                <td>POA</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
