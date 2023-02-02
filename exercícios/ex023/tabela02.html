@@ -15,6 +15,7 @@
         width: 500px;
         border-collapse: collapse;
         margin: auto;
+        position: relative;
         }
         tr{
 
@@ -27,8 +28,16 @@
         border: 1px solid black;
         padding: 10px;
         }
+        thead > tr > th{
+          position: sticky;
+          top: -1px;
+            background-color: cornsilk;
+        }
         thead{
             background-color: cornsilk;
+           
+            
+
         }
         
     </style>
@@ -38,7 +47,7 @@
     <table>
         <thead>
           <tr>
-            <th>Lista de Filmes</th>
+            <th>Filmes</th>
             <th>Ano de Lançamento</th>
             
           </tr>
@@ -119,8 +128,38 @@
             <td>A Vida em Si</td>
             <td>2018</td>
           </tr>
-          <td>O Quebra-Nozes e os Quatro Reinos</td>
-          <td>2018</td>
+          <tr>
+            <td>O Quebra-Nozes e os Quatro Reinos</td>
+            <td>2018</td>
+          </tr>
+          <tr>
+            <td>Ted 2</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>Trocando os pés</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>O Sétimo Filho</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>O Imperador</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>Unfinished Business</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>O Último Mestre do Ar</td>
+            <td>2010</td>
+          </tr>
+          <tr>
+            <td>Um Olhar do Paraíso</td>
+            <td>2010</td>
+          </tr>
 
         </tbody>
         <tfoot>
